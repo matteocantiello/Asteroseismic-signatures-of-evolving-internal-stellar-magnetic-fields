@@ -1,4 +1,5 @@
 untitled.tex
+figures/DipoleHist1/DipoleHist1.png
 figures/DipoleHist/DipoleHist.png
 section_Timescales_begin_itemize_item__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
