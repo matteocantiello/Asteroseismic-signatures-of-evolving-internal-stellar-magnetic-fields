@@ -1,5 +1,6 @@
 Abstract.tex
 section_Dipole_and_Quadrupole_Mode__.tex
+figures/prediction_1.2/prediction_1.2.png
 untitled.tex
 figures/DipoleHist1/DipoleHist1.png
 section_Timescales_begin_itemize_item__.tex
