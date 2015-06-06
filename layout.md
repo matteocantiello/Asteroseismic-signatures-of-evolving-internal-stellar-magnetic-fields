@@ -3,6 +3,7 @@ section_Dipole_and_Quadrupole_Mode__.tex
 figures/prediction_1.2/prediction_1.3.png
 figures/prediction_1.6/prediction_1.6.png
 figures/prediction_1.8/prediction_1.8.png
+subsection_Red_Clump__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist1.png
 section_Timescales_begin_itemize_item__.tex
