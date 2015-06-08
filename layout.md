@@ -11,4 +11,5 @@ figures/t_ohm_t_acc/t_ohm_t_acc.png
 section_Predictions_for_suppression_begin__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
+figures/DipoleBEvolClump/DipoleBEvolClump.png
 section_Discussion_begin_itemize_item__.tex
