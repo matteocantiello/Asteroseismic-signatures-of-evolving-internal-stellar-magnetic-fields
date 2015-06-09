@@ -6,6 +6,7 @@ figures/prediction_1.8/prediction_1.8.png
 subsection_Red_Clump__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
+figures/DipoleHistConv1/DipoleHistConv1.png
 section_Timescales_label_time_begin__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
 section_Predictions_for_suppression_begin__.tex
