@@ -8,4 +8,17 @@
 
 The understanding of magnetic mode suppression presented in Section \ref{rgb} can be used to make predictions for magnetic mode suppression in red clump stars. We expect that mode suppression will occur if strong fields created by convective core dynamos can exist within the radiative regions of clump stars. 
 
-Figures \ref{fig:ClumpProp} and \ref{fig:ClumpPropMassive} show propagation diagrams of clump stars with ZAMS masses of $1.5 \, M_\odot$ and $2.5 \, M_\odot$, respectively. The stellar models have been computed using the MESA stellar evolution code 
+Figures \ref{fig:ClumpProp} and \ref{fig:ClumpPropMassive} show propagation diagrams of clump stars with ZAMS masses of $1.5 \, M_\odot$ and $2.5 \, M_\odot$, respectively. The stellar models have been computed using the MESA stellar evolution code \citep{Paxton_2010} using the inlist provided in Fuller et al. 2015. Convective boundaries have been calculated using the Schwarzschild criterion as appropriate for stars of this mass (Moore et al. 2015).
+
+To calculate plausible magnetic field strengths in the cores of these stars, we assume that the convective core dynamo creates a magnetic field of equipartition strength,
+\begin{equation}
+\label{eqn:Beq}
+B_{\rm MS} = \sqrt{ 8 \pi rho v_{\rm con}^2} \, .
+\end{equation}
+Here, $v_{\rm con}$ is the convective velocity according to mixing-length theory, $v_{\rm con} \sim (F/\rho)^{1/3}$, and $F$ is the energy flux carried by convection. We find typical field strengths of $B \sim 2 \times 10^5 \, {\rm G}$ on the main sequence, and assume they are confined to the maximal extent of the core convective region on the main sequence. We then assume that magnetic flux is conserved through subsequent phases of evolution, such that
+\begin{equation}
+\label{eqn:Brgb}
+B_{\rm RG} = B_{\rm MS} \bigg( \frac{r_{\rm MS}}{r_{\rm RG}} \bigg)^2 \, .
+\end{equation}
+Here, the red giant magnetic field $B_{\rm RG}$ at a mass coordinate $M$ is calculated from the corresponding main sequence field $B_{\rm MS}$ at the moment when the convective core has its largest extent. The radius $r_{\rm MS}$ is the radial coordinate of the mass shell at this point on the main sequence, while the radius $r_{\rm RG}$ is the radial coordinate of the mass shell when the star is on the clump. As shown in the bottom panel of Figures \ref{fig:ClumpProp} and \ref{fig:ClumpPropMassive}, magnetic fields of $B_{\rm RG} > 10^6 \, {\rm G}$ may exist in the cores of clump stars. 
+
