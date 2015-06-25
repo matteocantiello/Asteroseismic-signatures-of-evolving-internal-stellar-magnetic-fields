@@ -10,6 +10,7 @@ figures/DipoleHistConv1/DipoleHistConv1.png
 section_Timescales_label_time_begin__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
 section_Magnetic_Mode_Suppression_in__.tex
+subsection_Convective_Magnetic_Field_Destruction__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
 figures/DipoleBEvolClump/DipoleBEvolClump.png
