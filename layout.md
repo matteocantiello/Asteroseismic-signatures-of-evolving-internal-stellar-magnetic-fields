@@ -7,10 +7,10 @@ subsection_Red_Clump__.tex
 section_Dynamo_field_during_the__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
-figures/DipoleHistConv1/DipoleHistConv.png
 section_Timescales_label_time_begin__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
 section_Magnetic_Mode_Suppression_in__.tex
+figures/DipoleHistConv1/DipoleHistConv.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
