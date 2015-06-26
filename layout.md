@@ -4,6 +4,7 @@ figures/prediction_1.2/prediction_1.3.png
 figures/prediction_1.6/prediction_1.6.png
 figures/prediction_1.8/prediction_1.8.png
 subsection_Red_Clump__.tex
+section_Dynamo_field_during_the__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
 figures/DipoleHistConv1/DipoleHistConv1.png
