@@ -3,6 +3,7 @@ section_Dipole_and_Quadrupole_Mode__.tex
 figures/prediction_1.2/prediction_1.3.png
 figures/prediction_1.6/prediction_1.6.png
 figures/prediction_1.8/prediction_1.8.png
+figures/integral_stack/integral_stack.png
 subsection_Red_Clump__.tex
 section_Dynamo_field_during_the__.tex
 untitled.tex
