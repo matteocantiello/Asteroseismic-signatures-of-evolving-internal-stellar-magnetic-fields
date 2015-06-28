@@ -1,0 +1,262 @@
+\begin{verbatim}
+
+from numpy import *
+from matplotlib import *
+from matplotlib.pyplot import *
+
+
+
+figure(figsize=(8,16))
+rc('axes', linewidth=2)
+rc("text", usetex=True)
+rc('font', family='serif')
+rc('font', serif='Times')
+#subplots_adjust(hspace=0)
+#subplots_adjust(wspace=0)
+#subplots(sharey='all')
+
+
+gs = gridspec.GridSpec(7, 1, height_ratios=[1,1,1,1,1,1,1])
+
+
+plot1=subplot(gs[0])
+
+semilogx(1.,1.,linewidth=0,label=r'$1.25 \, M_\odot$')
+semilogx(Agerev[0][0:nmod[0]],heev[0][0:nmod[0]],color='crimson',linewidth=3,label=r'He Core ($M_\odot$)')
+semilogx(1.,1.,linewidth=4,color='lightblue',alpha=0.5,label=r'Convective')
+semilogx(1.,1.,linewidth=4,color='magenta',alpha=0.1,label=r'ZAMS Convective')
+#semilogx(Agerev[0][0:nmod[0]],Mcev[0][0:nmod[0]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[0][0:nmod[0]-1],0.*Mcev[0][0:nmod[0]-1],Mcev[0][0:nmod[0]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba0,cbab0,cbat0,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb0,cbbb0,cbbt0,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta0,ctab0,ctat0,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[0][numax500ind[0]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[0][numax50ind[0]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[0],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='upper left',fontsize=12)
+#xlabel(r'Time Until End (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+plot2=subplot(gs[1])
+
+semilogx(1.,1.,linewidth=0,label=r'$1.5 \, M_\odot$')
+semilogx(Agerev[1][0:nmod[1]-1],heev[1][0:nmod[1]-1],color='crimson',linewidth=3)
+#semilogx(Agerev[1][0:nmod[1]],Mcev[1][0:nmod[1]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[1][0:nmod[1]-1],0.*Mcev[1][0:nmod[1]-1],Mcev[1][0:nmod[1]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba1,cbab1,cbat1,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb1,cbbb1,cbbt1,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta1,ctab1,ctat1,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[1][numax500ind[1]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[1][numax50ind[1]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+annotate(r'MS Conv. Core', xy=(2.5e9,0.06), xytext=(2.5e9,0.06), fontsize=12)
+annotate(r'RGB Conv. Env.', xy=(3.e8,0.45), xytext=(3.e8,0.45), fontsize=12)
+annotate(r'Clump Conv. Core', xy=(1.07e8,0.06), xytext=(1.07e8,0.06), fontsize=10)
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[1],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='upper left',fontsize=14)
+#xlabel(r'Time Until End (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+
+plot3=subplot(gs[2])
+
+semilogx(1.,1.,linewidth=0,label=r'$1.75 \, M_\odot$')
+semilogx(Agerev[2][2:nmod[2]],heev[2][2:nmod[2]],color='crimson',linewidth=3)
+#semilogx(Agerev[2][0:nmod[2]],Mcev[2][0:nmod[2]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[2][0:nmod[2]-1],0.*Mcev[2][0:nmod[2]-1],Mcev[2][0:nmod[2]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba2,cbab2,cbat2,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb2[where(agebb2<2.e8)],cbbb2[where(agebb2<2.e8)],cbbt2[where(agebb2<2.e8)],color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta2,ctab2,ctat2,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[2][numax500ind[2]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[2][numax50ind[2]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[2],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='upper left',fontsize=14)
+#xlabel(r'Time Until End (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+
+
+plot4=subplot(gs[3])
+
+semilogx(1.,1.,linewidth=0,label=r'$2.0 \, M_\odot$')
+semilogx(Agerev[3][0:nmod[3]],heev[3][0:nmod[3]],color='crimson',linewidth=3)
+#semilogx(Agerev[3][0:nmod[3]],Mcev[3][0:nmod[3]],color='darkmagenta',linewidth=2,alpha=0.6)
+
+fill_between(Agerev[3][0:nmod[3]-1],0.*Mcev[3][0:nmod[3]-1],Mcev[3][0:nmod[3]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba3,cbab3,cbat3,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb3,cbbb3,cbbt3,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta3,ctab3,ctat3,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[3][numax500ind[3]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[3][numax50ind[3]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[3],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='upper left',fontsize=14)
+#xlabel(r'Time Until End (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+
+
+plot5=subplot(gs[4])
+
+semilogx(1.,1.,linewidth=0,label=r'$2.25 \, M_\odot$')
+semilogx(Agerev[4][0:nmod[4]],heev[4][0:nmod[4]],color='crimson',linewidth=3)
+#semilogx(Agerev[4][0:nmod[4]],Mcev[4][0:nmod[4]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[4][0:nmod[4]-1],0.*Mcev[4][0:nmod[4]-1],Mcev[4][0:nmod[4]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba4,cbab4,cbat4,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb4,cbbb4,cbbt4,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta4,ctab4,ctat4,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[4][numax500ind[4]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[4][numax50ind[4]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[4],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='lower left',fontsize=14)
+#xlabel(r'Time Until End (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+
+
+plot6=subplot(gs[5])
+
+semilogx(1.,1.,linewidth=0,label=r'$2.5 \, M_\odot$')
+semilogx(Agerev[5][0:nmod[5]],heev[5][0:nmod[5]],color='crimson',linewidth=3)
+#semilogx(Agerev[5][0:nmod[5]],Mcev[5][0:nmod[5]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[5][0:nmod[5]-1],0.*Mcev[5][0:nmod[5]-1],Mcev[5][0:nmod[5]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba5,cbab5,cbat5,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb5,cbbb5,cbbt5,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta5,ctab5,ctat5,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[5][numax500ind[5]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[5][numax50ind[5]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[5],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='lower left',fontsize=14)
+xlabel(r'Time Until He Core Exhaustion (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+
+
+
+
+plot7=subplot(gs[6])
+
+semilogx(1.,1.,linewidth=0,label=r'$3.0 \, M_\odot$')
+semilogx(Agerev[6][0:nmod[6]],heev[6][0:nmod[6]],color='crimson',linewidth=3)
+#semilogx(Agerev[5][0:nmod[6]],Mcev[6][0:nmod[6]],color='magenta',linewidth=4,alpha=0.6)
+
+fill_between(Agerev[6][0:nmod[6]-1],0.*Mcev[6][0:nmod[6]-1],Mcev[6][0:nmod[6]-1],color='magenta',linewidth=2,alpha=0.1)
+fill_between(ageba6,cbab6,cbat6,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(agebb6,cbbb6,cbbt6,color='lightblue',linewidth=1,alpha=0.5)
+fill_between(ageta6,ctab6,ctat6,color='lightblue',linewidth=1,alpha=0.5)
+
+vlines(Agerev[6][numax500ind[6]],0.,10.,color='black',linewidth=3,linestyle='--')
+vlines(Agerev[6][numax50ind[6]],0.,10.,color='black',linewidth=3,linestyle='--')
+
+xticks(fontsize=16)
+yticks(fontsize=16)
+xlim(agemax[6],5.e7)
+ylim(0.,0.6)
+minorticks_on()
+tick_params(axis='x',which='major',length=8,width=2)
+tick_params(axis='x',which='minor',length=5,width=1)
+tick_params(axis='y',which='major',length=8,width=2)
+tick_params(axis='y',which='minor',length=5,width=1)
+
+legend(loc='lower left',fontsize=14)
+xlabel(r'Time Until He Core Exhaustion (yr)',fontsize=18)
+ylabel(r'Mass ($M_\odot$)',fontsize=18)
+
+
+savefig("DipoleHist2.pdf",bbox_inches='tight')
+
+
+\end{verbatim}
+  
