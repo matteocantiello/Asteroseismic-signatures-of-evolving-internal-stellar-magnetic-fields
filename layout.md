@@ -17,3 +17,4 @@ section_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleHistConv1/DipoleHistConv.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
 section_Discussion_begin_itemize_item__.tex
+begin_verbatim_from_numpy_import__.tex
