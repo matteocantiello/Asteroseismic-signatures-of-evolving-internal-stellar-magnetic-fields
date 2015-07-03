@@ -1,5 +1,6 @@
 Abstract.tex
 figures/integral_stack1/integral_stack1.png
+figures/integral_stack_clump/integral_stack_clump.png
 section_Dipole_and_Quadrupole_Mode__.tex
 figures/prediction_1.2/prediction_1.3.png
 figures/prediction_1.6/prediction_1.6.png
