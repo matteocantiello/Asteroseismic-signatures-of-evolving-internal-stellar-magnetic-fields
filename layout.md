@@ -1,7 +1,6 @@
 Abstract.tex
 figures/integral_stack1/integral_stack_2plots.png
 section_Dipole_and_Quadrupole_Mode__.tex
-figures/prediction_1.8/prediction_1.8.png
 subsection_Red_Clump__.tex
 section_Dynamo_field_during_the__.tex
 untitled.tex
