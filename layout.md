@@ -1,7 +1,7 @@
 Abstract.tex
 section_Dipole_and_Quadrupole_Mode__.tex
-figures/integral_stack1/integral_stack_2plots.png
 subsection_Red_Clump__.tex
+figures/integral_stack1/integral_stack_2plots.png
 section_Dynamo_field_during_the__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
