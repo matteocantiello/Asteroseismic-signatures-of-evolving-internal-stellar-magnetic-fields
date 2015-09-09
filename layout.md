@@ -15,3 +15,4 @@ figures/DipoleHistConv1/DipoleHistConv.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
 section_Discussion_begin_itemize_item__.tex
 figures/DipoleEvolPropsdB/DipoleEvolPropsdB.png
+section_Conclusions_label_conclusion_The__.tex
