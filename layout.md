@@ -5,8 +5,8 @@ figures/integral_stack1/integral_two_colums.png
 figures/integral_stack_clump_2/integral_stack_clump_2.png
 subsection_Red_Clump_label_clump__.tex
 section_Features_of_main_sequence__.tex
-subsection_Magnetic_Field_Structure_label__.tex
 untitled.tex
+subsection_Magnetic_Field_Structure_label__.tex
 figures/DipoleHist1/DipoleHist2.png
 section_Timescales_label_time_begin__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
