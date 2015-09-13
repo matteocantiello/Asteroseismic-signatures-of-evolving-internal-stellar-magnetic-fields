@@ -4,7 +4,7 @@ section_Dipole_and_Quadrupole_Mode__.tex
 figures/integral_stack1/integral_two_colums.png
 figures/integral_stack_clump_2/integral_stack_clump_2.png
 subsection_Red_Clump_label_clump__.tex
-section_Dynamo_field_during_the__.tex
+section_Features_of_main_sequence__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
 section_Timescales_label_time_begin__.tex
