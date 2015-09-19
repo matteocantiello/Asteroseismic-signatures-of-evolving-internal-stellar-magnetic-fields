@@ -7,7 +7,7 @@ section_Features_of_main_sequence__.tex
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
 subsection_Magnetic_Field_Structure_label__.tex
-section_Timescales_label_time_begin__.tex
+section_Timescales_label_time_Here__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
