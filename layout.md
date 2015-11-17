@@ -15,6 +15,7 @@ figures/DipoleBEvolClump/DipoleBEvolClump2.png
 section_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleHistConv1/DipoleHistConv.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
+section_Discussion_begin_itemize_item__1.tex
 section_Discussion_begin_itemize_item__.tex
 figures/DipoleEvolPropsdB/DipoleEvolPropsdB.png
 subsection_Magnetic_fields_in_He__.tex
