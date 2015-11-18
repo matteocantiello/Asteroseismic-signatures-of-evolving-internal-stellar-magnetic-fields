@@ -21,5 +21,4 @@ subsection_Angular_Momentum_Transport_Several__1.tex
 subsection_Magnetic_Fields_in_Planetary__.tex
 subsection_Magnetic_Fields_in_White__.tex
 figures/DipoleEvolPropsdB/DipoleEvolPropsdB.png
-subsection_Magnetic_fields_in_He__.tex
 section_Conclusions_label_conclusion_The__.tex
