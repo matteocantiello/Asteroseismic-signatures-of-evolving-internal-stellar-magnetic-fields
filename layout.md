@@ -23,4 +23,5 @@ subsection_Magnetic_Fields_in_White__.tex
 figures/DipoleEvolPropsdB/DipoleEvolPropsdB.png
 section_Conclusions_label_conclusion_The__.tex
 appendix_section_Propagation_Diagrams_It__1.tex
+figures/DipoleEvolPropsdB1/DipoleEvolPropsdB1.png
 section_Magnetic_Mode_Splitting_label__.tex
