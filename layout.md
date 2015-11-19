@@ -22,4 +22,5 @@ subsection_Magnetic_Fields_in_Planetary__.tex
 subsection_Magnetic_Fields_in_White__.tex
 figures/DipoleEvolPropsdB/DipoleEvolPropsdB.png
 section_Conclusions_label_conclusion_The__.tex
+appendix_section_Propagation_Diagrams_It__1.tex
 appendix_section_Propagation_Diagrams_It__.tex
