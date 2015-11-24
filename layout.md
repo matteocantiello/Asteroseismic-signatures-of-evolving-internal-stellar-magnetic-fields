@@ -25,3 +25,4 @@ figures/DipoleEvolPropsdB1/DipoleEvolPropsdB1.png
 figures/DipoleEvolPropGdor/DipoleEvolPropGdor.png
 figures/DipoleEvolPropSPB1/DipoleEvolPropSPB1.png
 section_Magnetic_Mode_Splitting_label__.tex
+section_MESA_Inlist_label_inlist__.tex
