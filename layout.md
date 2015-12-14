@@ -1,7 +1,7 @@
 Abstract.tex
 section_Introduction_label_intro_Magnetic__.tex
 section_Dipole_and_Quadrupole_Mode__.tex
-figures/integral_stack1/integral_two_colums.png
+figures/integral_stack1/two_panels.png
 subsection_Red_Clump_label_clump__.tex
 section_Features_of_main_sequence__.tex
 figures/t_ohm_t_acc/t_ohm_t_acc.png
