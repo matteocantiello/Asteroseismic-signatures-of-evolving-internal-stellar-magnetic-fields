@@ -6,7 +6,7 @@ subsection_Red_Clump_label_clump__.tex
 section_Features_of_main_sequence__.tex
 figures/t_ohm_t_acc/magnetic_diffusivity.png
 untitled.tex
-figures/DipoleHist1/DipoleHist2.png
+figures/DipoleHist1/DipoleHist3.png
 subsection_Magnetic_Field_Structure_label__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
