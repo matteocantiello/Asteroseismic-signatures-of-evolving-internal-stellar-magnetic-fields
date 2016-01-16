@@ -8,6 +8,7 @@ figures/t_ohm_t_acc/magnetic_diffusivity.png
 untitled.tex
 figures/DipoleHist1/DipoleHist3.png
 subsection_Magnetic_Mode_Suppression_in__.tex
+subsection_Magnetic_Fields_in_Planetary__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump2.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive2.png
 figures/DipoleBEvolClump/DipoleBEvolClump3.png
@@ -17,7 +18,6 @@ subsection_Convective_Magnetic_Field_Destruction__.tex
 section_Discussion_begin_itemize_item__1.tex
 subsection_Magnetic_Splitting_of_Mixed__.tex
 subsection_Angular_Momentum_Transport_Several__1.tex
-subsection_Magnetic_Fields_in_Planetary__.tex
 section_Remnants_subsection_Magnetic_Fields__.tex
 section_Implications_for_Other_Asteroseismic__.tex
 section_Conclusions_and_Future_Work__.tex
