@@ -4,10 +4,10 @@ section_Dipole_and_Quadrupole_Mode__.tex
 figures/integral_stack1/no_over_two.png
 subsection_Red_Clump_label_clump__.tex
 section_Features_of_main_sequence__.tex
-subsection_Magnetic_Field_Structure_label__.tex
 figures/t_ohm_t_acc/magnetic_diffusivity.png
 untitled.tex
 figures/DipoleHist1/DipoleHist3.png
+subsection_Magnetic_Field_Structure_label__.tex
 subsection_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump2.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive2.png
