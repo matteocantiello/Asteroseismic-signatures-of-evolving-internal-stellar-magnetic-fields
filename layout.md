@@ -22,7 +22,7 @@ subsection_Magnetic_Fields_in_Planetary__.tex
 section_Implications_for_Other_Asteroseismic__.tex
 section_Conclusions_and_Future_Work__.tex
 appendix_section_Propagation_Diagrams_It__1.tex
-figures/DipoleEvolPropsdB1/DipoleEvolPropsdB1.png
+figures/DipoleEvolPropsdB1/DipoleEvolPropsdB.png
 figures/DipoleEvolPropGdor/DipoleEvolPropGdor.png
 figures/DipoleEvolPropSPB1/DipoleEvolPropSPB1.png
 section_Magnetic_Mode_Splitting_label__.tex
