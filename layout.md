@@ -25,5 +25,6 @@ appendix_section_Propagation_Diagrams_It__1.tex
 figures/DipoleEvolPropsdB1/DipoleEvolPropsdB.png
 figures/DipoleEvolPropGdor/DipoleEvolPropGdor.png
 figures/DipoleEvolPropSPB1/DipoleEvolPropSPB.png
+The_propagation_diagrams_above_illustrate__.tex
 section_Magnetic_Mode_Splitting_label__.tex
 section_MESA_Inlist_label_inlist__.tex
