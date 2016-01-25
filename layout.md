@@ -10,7 +10,7 @@ figures/DipoleHist1/DipoleHist2.png
 subsection_Magnetic_Field_Structure_label__.tex
 subsection_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
-figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive2.png
+figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
 figures/DipoleBEvolClump/DipoleBEvolClump3.png
 figures/DipoleHistConv2/DipoleHistConv2.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
