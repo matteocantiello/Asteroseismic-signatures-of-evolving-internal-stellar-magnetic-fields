@@ -12,7 +12,7 @@ subsection_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
 figures/DipoleBEvolClump/DipoleBEvolClump2.png
-figures/DipoleHistConv2/DipoleHistConv2.png
+figures/DipoleHistConv2/DipoleHistConv.png
 subsection_Convective_Magnetic_Field_Destruction__.tex
 section_Discussion_begin_itemize_item__1.tex
 subsection_Magnetic_Splitting_of_Mixed__.tex
