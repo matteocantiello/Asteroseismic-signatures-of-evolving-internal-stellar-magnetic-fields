@@ -7,7 +7,7 @@ section_Features_of_main_sequence__.tex
 figures/t_ohm_t_acc/magnetic_diffusivity.png
 untitled.tex
 figures/DipoleHist1/DipoleHist2.png
-subsection_Magnetic_Field_Structure_label__.tex
+subsection_Magnetic_Field_Strength_and__.tex
 subsection_Magnetic_Mode_Suppression_in__.tex
 figures/DipoleEvolPropClump/DipoleEvolPropClump.png
 figures/DipoleEvolPropClumpMassive/DipoleEvolPropClumpMassive.png
